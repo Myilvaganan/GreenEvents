@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    color: #333333;
+    height: 60px;
+    padding: 0 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header_right {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.logo {
+    display: flex;
+    cursor: pointer;
+}
+
+.logo p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Kaushan Script', cursive;
+    color: rgba(0, 70, 3, 0.897);
+    transition: color 0.5s ease-in-out;
+}
+
+.logo p:hover {
+    color: rgb(0, 199, 10);
+
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.header a {
+    color: #333;
+    margin-right: 20px;
+    transition: color 0.5s ease-in-out;
+}
+
+.header a:hover {
+    color: rgb(0, 199, 10);
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .header ul {
+        margin: 20px 0;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header .logo p {
+        font-size: 2rem;
+    }
+
+    .header a {
+        margin-right: 0;
+    }
+
+    .logo {
+        margin: 20px 0;
+    }
+}
