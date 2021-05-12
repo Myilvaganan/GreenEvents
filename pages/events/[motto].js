@@ -81,13 +81,13 @@ export async function getStaticProps({ params: { motto } }) {
 	};
 }
  */
- export async function getServerSideProps({ query: { motto } }) {
-  const res = await fetch(`${API_URL}/events?motto=${motto}`)
-  const events = await res.json()
+export async function getServerSideProps({ query: { motto } }) {
+	const res = await fetch(`${API_URL}/events?motto=${motto}`);
+	const events = await res.json();
 
-  return {
-    props: {
-      evt: events[0],
-    },
-  }
-} 
+	return {
+		props: {
+			event: events[0]
+		}
+	};
+}
