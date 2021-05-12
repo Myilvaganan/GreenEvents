@@ -1,0 +1,18 @@
+.search input {
+    width: 300px;
+    height: 38px;
+    padding: 10px;
+    padding-left: 15px;
+    caret-color: rgb(14, 199, 14);
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    box-shadow: rgb(148, 168, 132) 3px 3px 6px 0px inset,
+        rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+}
+
+.search input:focus {
+    border: 3px solid rgb(17, 197, 17);
+    font-weight: 900;
+}

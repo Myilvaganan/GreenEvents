@@ -1,0 +1,17 @@
+.dash h1 span {
+    font-size: 20px;
+    color: rgb(45, 204, 156);
+    margin-left: 10px;
+   
+}
+
+.dash h3 {
+    font-size: 25px;
+    color: rgb(16, 196, 0);
+}
+
+.dashboardEvents{
+     background-color: #dbfab3;
+     padding: 10px;
+     border-radius: 10px;
+}

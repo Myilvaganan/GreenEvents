@@ -1,0 +1,64 @@
+.svg {
+    margin-top: 2rem;
+}
+
+.line {
+    border-left: 8px solid rgb(54, 190, 0);
+    padding-left: 10px;
+}
+
+.viewBtn {
+    text-align: end;
+}
+
+.blockquote {
+    text-align: justify;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    margin-top: 5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media (max-width: 768px) {
+    .blockquote {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+}
+
+.blockquoteFooter {
+    font-style: italic;
+    color: rgb(24, 216, 152);
+    text-align: end;
+}
+
+.section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+
+
+}
+
+.quote {
+    line-height: 2.2rem;
+    font-weight: 300;
+}
+
+.quote:before,
+.quote:after {
+    font-size: 1.8rem;
+    font-style: italic;
+    color: rgb(0, 199, 99);
+}
+
+.quote:before {
+    content: open-quote;
+}
+
+.quote:after {
+    content: close-quote;
+}

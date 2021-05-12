@@ -1,0 +1,55 @@
+.line {
+    border-bottom: 5px double rgb(54, 190, 0);
+    font-family: 'Cormorant SC',
+    serif;
+    color: rgb(23, 151, 29);
+    letter-spacing: 2px;
+
+}
+
+.event {
+    position: relative;
+   
+    padding-top: 0px;
+    padding-left: 30px;
+    border-left: 3px double  rgba(151, 147, 147, 0.411);
+}
+
+.event h3 {
+    font-size: 25px;
+}
+
+.event p {
+    margin: 10px 0;
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+.controls {
+  
+    position: absolute;
+    left:0;
+    bottom: 0;
+}
+
+.delete {
+    margin-left: 20px;
+    color: red;
+}
+.edit{
+    margin-left: 20px;
+}
+.back {
+    display: block;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .controls{
+         display:flex;
+         justify-content: center;
+         flex-direction: column;
+    }
+}
