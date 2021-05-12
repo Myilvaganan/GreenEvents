@@ -1,4 +1,51 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![Header](https://github.com/Myilvaganan/DevConnector/blob/main/ProfileHeader.png "Header")](https://github.com/Myilvaganan/)
+
+# Green Events App
+
+<img src="./logo.jpg" width="260"/>
+
+# Project Done By:  <a href="https://github.com/Myilvaganan" noreferrer target="_blank">Myilvaganan</a>
+
+# This website is mainly designed to build the social connect of peoples who are all kind heartedly steeping to rebuild our world green.
+
+## Deployed Website
+
+https://greeneventsmyil.vercel.app/
+
+## Github Repository
+
+https://github.com/Myilvaganan/GreenEvents
+
+![GreenEvents Banner](docs/Banner.png)
+
+## Tech Stack
+
+- Strapi Server for Backend Logics
+- NextJs 
+- React Context API
+- PostgreSQL
+- Heroku - Backend Deploy
+- Vercel - Frontend Deploy
+
+
+## Wireframes
+
+![GreenEvents Home Page](docs/HomePage1.jpg)
+![GreenEvents Home Page](docs/HomePage2.jpg)
+![GreenEvents Home Page](docs/HomePage3.jpg)
+![GreenEvents About Page](docs/AboutPage.jpg)
+
+![GreenEvents Register View](docs/RegisterPage.jpg)
+![GreenEvents Login View](docs/LoginPage.jpg)
+![GreenEvents Dashboard View](docs/Dashboard.jpg)
+
+![GreenEvents All Events Page](docs/AllEventsPage.jpg)
+![GreenEvents Add Event Page](docs/AddEventPage.jpg)
+![GreenEvents Edit Event Page](docs/EditEventPage.jpg)
+![GreenEvents Event View ](docs/EventView1.jpg)
+![GreenEvents Event View](docs/EventView2.jpg)
+![GreenEvents Upload Image Page](docs/UploadEventPage.jpg)
 
 ## Getting Started
 
