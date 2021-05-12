@@ -7,7 +7,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # Project Done By:  <a href="https://github.com/Myilvaganan" noreferrer target="_blank">Myilvaganan</a>
 
-# This website is mainly designed to build the social connect of peoples who are all kind heartedly steeping to rebuild our world green.
+# This website is mainly designed to build the social connect of peoples who are all kind heartedly stepping to rebuild our world green.
 
 ## Deployed Website
 
